@@ -4,10 +4,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Curriculum Vitae — Achmad Nuhan T</title>
-  <meta name="description" content="CV digital sederhana tanpa framework CSS. Edit isi sesuai kebutuhan." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
     :root{
       --bg:#f7f8fb;
@@ -26,10 +22,7 @@
     body{
       margin:0;
       background: linear-gradient(180deg,var(--bg),#eef2ff 60%);
-      /* display:flex;
-      align-items:center;
-      justify-content:center; */
-      display: block; /* Tambahkan ini */
+      display: block; 
       padding:28px;
     }
 
@@ -45,7 +38,6 @@
       overflow:hidden;
     }
 
-    /* SIDEBAR */
     .sidebar{
       background:linear-gradient(180deg, rgba(255,255,255,0.8), rgba(255,255,255,0.6));
       padding:26px;
@@ -142,7 +134,6 @@
         <div class="title">Saya Mahasiswa Universitas Jember</div>
       </div>
 
-      <!-- Tambahkan bagian tanggal lahir di sini -->
       <div class="birth">
         <div class="section-title">TEMPAT,TANGGAL LAHIR</div>
         <div class="contact-item">
@@ -250,7 +241,7 @@
     <footer>
       <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
         <div>&copy; <span id="year"></span> Achmad Nuhan T</div>
-        <div style="font-size:13px;color:var(--muted)">CV saya buat dengan diri saya sendiri.</div>
+        <div style="font-size:13px;color:var(--muted)">CV saya buat dengan identitas saya.</div>
       </div>
     </footer>
   </div>
